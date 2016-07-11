@@ -17,3 +17,12 @@ server.listen(port, function()
 });
 
 server.use('/', require('./routers'));
+server.use('/', require('./routers/factura.js'));
+server.use('/', require('./routers/contrato.js'));
+server.use('/', require('./routers/notificacion.js'));
+server.use('/', require('./routers/convenio.js'));
+server.use('/', require('./routers/drenaje.js'));
+server.use('/', require('./routers/contrato.js'));
+server.use('/', require('./routers/requisitos.js'));
+server.use('/', require('./routers/toma_domiciliaria.js'));
+server.use('/', require('./routers/orden_instalacion.js'));
