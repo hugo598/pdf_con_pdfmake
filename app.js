@@ -26,3 +26,5 @@ server.use('/', require('./routers/contrato.js'));
 server.use('/', require('./routers/requisitos.js'));
 server.use('/', require('./routers/toma_domiciliaria.js'));
 server.use('/', require('./routers/orden_instalacion.js'));
+server.use('/', require('./routers/lecturista.js'));
+server.use('/', require('./routers/constancia_no_adeudo.js'));

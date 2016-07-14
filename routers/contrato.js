@@ -378,7 +378,9 @@ router.route('/contrato')
 							lineWidth: 1
 						}
 					]
-				}
+				},
+				{text: 'RECIBO DE PAGO', pageOrientation: 'portrait', pageSize: 'LETTER', pageBreak: 'before'},
+
     	],
     	styles: {
     		header: {
